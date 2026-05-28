@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { supabase } from '../lib/supabase'
 
 interface Props {
-  children: JSX.Element
+  children: React.ReactNode
 }
 
 export default function ProtectedRoute({
